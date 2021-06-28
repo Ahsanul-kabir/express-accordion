@@ -5,7 +5,7 @@ const Question = (question) => {
   const { title, info } = question
   const [showInfo, setShowInfo] = useState(false);
 
-  return <article className='questions'>
+  return <article className='question'>
     <header>
       <h4>{title}</h4>
       <button className='btn' onClick={()=>setShowInfo(!showInfo)}>
